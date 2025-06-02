@@ -1,0 +1,928 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\config\MybatisPlusConfig.java">
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="12" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="12" column="5" severity="error" message="類 &apos;MybatisPlusConfig&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;mybatisPlusInterceptor&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;MybatisPlusConfig&apos; final或使方法 &apos;mybatisPlusInterceptor&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="15" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\config\MyInterceptorConfig.java">
+<error line="9" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="9" column="20" severity="error" message="名称 &apos;UPLOAD_FOLDER&apos; 必须匹配表达式： &apos;^[a-z][a-zA-Z0-9]*$&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="11" column="5" severity="error" message="類 &apos;MyInterceptorConfig&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;addResourceHandlers&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;MyInterceptorConfig&apos; final或使方法 &apos;addResourceHandlers&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="12" column="37" severity="error" message="参数： registry 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="13" severity="error" message="本行字符数 99个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\config\WebSocketConfig.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="7" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="14" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="14" column="5" severity="error" message="類 &apos;WebSocketConfig&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;serverEndpointExporter&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;WebSocketConfig&apos; final或使方法 &apos;serverEndpointExporter&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\controller\AdministratorController.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="10" column="47" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.springframework.web.bind.annotation.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="14" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="22" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="28" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="35" column="24" severity="error" message="参数： id 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="40" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="47" column="21" severity="error" message="参数： administrator 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="51" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="51" column="5" severity="error" message="類 &apos;AdministratorController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;login&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;AdministratorController&apos; final或使方法 &apos;login&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="52" column="20" severity="error" message="参数： administrator 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="53" severity="error" message="本行字符数 121个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="53" column="28" severity="error" message="应避免在子表达式中赋值。" source="com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\controller\CommodityController.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="14" column="47" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.springframework.web.bind.annotation.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="19" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="27" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="32" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="35" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="35" column="5" severity="error" message="類 &apos;CommodityController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;selectAll&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;CommodityController&apos; final或使方法 &apos;selectAll&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="36" column="24" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="37" severity="error" message="本行字符数 119个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="37" column="68" severity="error" message="&apos;10&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="37" column="71" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="40" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="47" column="23" severity="error" message="参数： map 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="48" severity="error" message="本行字符数 93个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="51" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="51" column="5" severity="error" message="類 &apos;CommodityController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;searchOrder&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;CommodityController&apos; final或使方法 &apos;searchOrder&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="52" column="26" severity="error" message="参数： map 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="55" severity="error" message="本行字符数 85个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="55" column="9" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="56" severity="error" message="本行字符数 93个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="57" column="9" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="58" severity="error" message="本行字符数 89个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="58" column="9" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="59" severity="error" message="本行字符数 89个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="59" column="9" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="65" column="9" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="66" column="9" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="67" severity="error" message="本行字符数 89个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="67" column="68" severity="error" message="&apos;15&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="70" severity="error" message="本行字符数 86个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="70" column="30" severity="error" message="参数： map 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="70" column="57" severity="error" message="参数： key 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="74" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="81" column="24" severity="error" message="参数： id 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="85" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="94" severity="error" message="本行字符数 107个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="94" column="29" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="94" column="51" severity="error" message="参数： commodity 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="94" column="72" severity="error" message="参数： status 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="95" severity="error" message="本行字符数 109个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="98" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="105" column="21" severity="error" message="参数： commodity 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="116" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="123" column="21" severity="error" message="参数： commodity 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\controller\CommodityEvaluationController.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="13" column="47" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.springframework.web.bind.annotation.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="17" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="25" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="31" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="41" column="21" severity="error" message="参数： commodityEvaluation 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="42" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="43" column="9" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="43" column="17" severity="error" message="&apos;{&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="44" severity="error" message="本行字符数 97个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="45" severity="error" message="本行字符数 104个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="46" severity="error" message="本行字符数 93个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="49" column="9" severity="error" message="&apos;}&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="49" column="10" severity="error" message="&apos;else&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="54" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="54" column="5" severity="error" message="類 &apos;CommodityEvaluationController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;getCommodityEvaluation&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;CommodityEvaluationController&apos; final或使方法 &apos;getCommodityEvaluation&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="55" severity="error" message="本行字符数 110个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="55" column="37" severity="error" message="参数： commodityId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="55" column="77" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="56" severity="error" message="本行字符数 108个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="56" column="91" severity="error" message="&apos;20&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="56" column="94" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\controller\CommodityPhotoController.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="13" column="47" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.springframework.web.bind.annotation.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="21" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="29" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="34" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="37" column="5" severity="error" message="類 &apos;CommodityPhotoController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;selectByCommodityID&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;CommodityPhotoController&apos; final或使方法 &apos;selectByCommodityID&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="38" column="34" severity="error" message="参数： commodityId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="39" severity="error" message="本行字符数 86个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="42" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="42" column="5" severity="error" message="類 &apos;CommodityPhotoController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;insert&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;CommodityPhotoController&apos; final或使方法 &apos;insert&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="43" column="21" severity="error" message="参数： file 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="44" column="21" severity="error" message="参数： commodityId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="45" column="29" severity="error" message="&apos;+&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="45" column="29" severity="error" message="&apos;+&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="48" column="9" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="65" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="68" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="75" column="21" severity="error" message="参数： commodityPhoto 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="81" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="81" column="5" severity="error" message="類 &apos;CommodityPhotoController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;delete&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;CommodityPhotoController&apos; final或使方法 &apos;delete&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="82" column="21" severity="error" message="参数： commodityPhoto 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="83" severity="error" message="本行字符数 86个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\controller\KindController.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="10" column="47" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.springframework.web.bind.annotation.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="12" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="20" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="26" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="36" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="43" column="21" severity="error" message="参数： kind 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\controller\OrderController.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="11" column="39" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.example.SecondStore.service.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="15" column="47" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.springframework.web.bind.annotation.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="20" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="28" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="33" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="35" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="39" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="42" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="49" column="24" severity="error" message="参数： id 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="53" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="53" column="5" severity="error" message="類 &apos;OrderController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;selectByUserID&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;OrderController&apos; final或使方法 &apos;selectByUserID&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="54" severity="error" message="本行字符数 97个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="54" column="29" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="54" column="62" severity="error" message="参数： userId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="55" column="64" severity="error" message="&apos;20&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="56" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="59" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="59" column="5" severity="error" message="類 &apos;OrderController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;selectByShopID&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;OrderController&apos; final或使方法 &apos;selectByShopID&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="60" severity="error" message="本行字符数 97个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="60" column="29" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="60" column="62" severity="error" message="参数： shopId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="61" column="64" severity="error" message="&apos;20&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="62" severity="error" message="本行字符数 112个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="62" column="105" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="62" column="107" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="62" column="108" severity="error" message="&apos;8&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="65" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="65" column="5" severity="error" message="類 &apos;OrderController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;selectAll&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;OrderController&apos; final或使方法 &apos;selectAll&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="66" column="24" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="66" column="56" severity="error" message="&apos;{&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="67" column="72" severity="error" message="&apos;20&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="67" column="75" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="67" column="76" severity="error" message="&apos;8&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="70" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="77" column="21" severity="error" message="参数： orders 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="79" column="39" severity="error" message="&apos;5&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="79" column="66" severity="error" message="&apos;6&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="82" column="9" severity="error" message="第 9 个字符 &apos;}&apos;应该与当前多代码块的下一部分 （if/else-if/else, do/while 或 try/catch/finally）位于同一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="83" column="40" severity="error" message="&apos;6&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="84" severity="error" message="本行字符数 97个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="89" column="62" severity="error" message="&apos;6&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="90" severity="error" message="本行字符数 84个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="91" severity="error" message="本行字符数 84个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="97" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="97" column="5" severity="error" message="類 &apos;OrderController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;payOrders&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;OrderController&apos; final或使方法 &apos;payOrders&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="98" column="24" severity="error" message="参数： orders 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="109" severity="error" message="本行字符数 90个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\controller\SellController.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="17" column="47" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.springframework.web.bind.annotation.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="24" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="32" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="37" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="40" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="47" severity="error" message="本行字符数 127个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="47" column="24" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="57" severity="error" message="参数： status 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="47" column="119" severity="error" message="&apos;status&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="49" column="9" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="50" column="63" severity="error" message="&apos;20&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="53" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="60" column="24" severity="error" message="参数： id 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="65" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="65" column="5" severity="error" message="類 &apos;SellController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;insert&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;SellController&apos; final或使方法 &apos;insert&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="66" column="21" severity="error" message="参数： idCardUp 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="67" column="21" severity="error" message="参数： idCardBack 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="68" column="21" severity="error" message="参数： license 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="69" column="21" severity="error" message="参数： sellJson 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="89" column="13" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="97" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="97" column="5" severity="error" message="類 &apos;SellController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;selectSellList&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;SellController&apos; final或使方法 &apos;selectSellList&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="98" column="29" severity="error" message="参数： map 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="99" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="102" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="109" column="21" severity="error" message="参数： sell 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="113" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="113" column="5" severity="error" message="類 &apos;SellController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;delete&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;SellController&apos; final或使方法 &apos;delete&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="114" column="21" severity="error" message="参数： sell 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="118" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="118" column="5" severity="error" message="類 &apos;SellController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;login&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;SellController&apos; final或使方法 &apos;login&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="119" column="20" severity="error" message="参数： sell 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="120" severity="error" message="本行字符数 85个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="120" column="19" severity="error" message="应避免在子表达式中赋值。" source="com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck"/>
+<error line="121" column="13" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="121" column="13" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="122" column="18" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="122" column="18" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="123" column="18" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="123" column="18" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="123" column="43" severity="error" message="&apos;return&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="124" column="13" severity="error" message="&apos;else&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\controller\ShopController.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="10" column="47" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.springframework.web.bind.annotation.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="14" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="22" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="28" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="35" column="24" severity="error" message="参数： id 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="39" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="46" column="21" severity="error" message="参数： shop 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\controller\ShopEvaluationController.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="15" column="47" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.springframework.web.bind.annotation.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="19" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="27" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="33" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="40" column="21" severity="error" message="参数： shopEvaluation 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="44" severity="error" message="本行字符数 88个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="49" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="49" column="5" severity="error" message="類 &apos;ShopEvaluationController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;getShopEvaluation&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;ShopEvaluationController&apos; final或使方法 &apos;getShopEvaluation&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="50" severity="error" message="本行字符数 100个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="50" column="32" severity="error" message="参数： shopId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="50" column="67" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="51" column="73" severity="error" message="&apos;15&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="52" severity="error" message="本行字符数 97个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\controller\ShoppingCartController.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="15" column="47" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.springframework.web.bind.annotation.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="22" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="29" column="58" severity="error" message="&apos;{&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="30" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="35" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="40" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="40" column="5" severity="error" message="類 &apos;ShoppingCartController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;getShopCraftById&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;ShoppingCartController&apos; final或使方法 &apos;getShopCraftById&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="41" severity="error" message="本行字符数 99个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="41" column="31" severity="error" message="参数： userId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="41" column="66" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="42" severity="error" message="本行字符数 84个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="42" column="71" severity="error" message="&apos;10&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="45" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="52" column="21" severity="error" message="参数： shoppingCart 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="53" severity="error" message="本行字符数 102个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="54" severity="error" message="本行字符数 86个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="55" column="9" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="64" severity="error" message="本行字符数 82个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="72" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="79" column="21" severity="error" message="参数： shoppingCart 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="81" severity="error" message="本行字符数 86个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="86" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="86" column="5" severity="error" message="類 &apos;ShoppingCartController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;delete&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;ShoppingCartController&apos; final或使方法 &apos;delete&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="87" column="22" severity="error" message="参数： shoppingCarts 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="87" column="68" severity="error" message="&apos;{&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="88" column="9" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="88" column="32" severity="error" message="&apos;&gt;&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="88" column="32" severity="error" message="&apos;&gt;&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="88" column="35" severity="error" message="&apos;{&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="97" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="97" column="5" severity="error" message="類 &apos;ShoppingCartController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;checkOutShoppingCart&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;ShoppingCartController&apos; final或使方法 &apos;checkOutShoppingCart&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="98" severity="error" message="本行字符数 82个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="98" column="35" severity="error" message="参数： shoppingCarts 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="102" severity="error" message="本行字符数 90个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="103" severity="error" message="本行字符数 82个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="104" column="13" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="109" severity="error" message="本行字符数 84个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="110" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="111" column="13" severity="error" message="第 13 个字符 &apos;}&apos;应该与当前多代码块的下一部分 （if/else-if/else, do/while 或 try/catch/finally）位于同一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="113" severity="error" message="本行字符数 108个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="114" severity="error" message="本行字符数 100个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="114" column="58" severity="error" message="&apos;3&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\controller\UserController.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="12" column="47" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.springframework.web.bind.annotation.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="17" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="25" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="31" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="38" severity="error" message="本行字符数 127个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="38" column="24" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="38" column="57" severity="error" message="参数： status 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="38" column="119" severity="error" message="&apos;status&apos;需要Javadoc注释 @param 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMethodCheck"/>
+<error line="40" column="9" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="41" column="63" severity="error" message="&apos;20&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="44" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="44" column="5" severity="error" message="類 &apos;UserController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;selectList&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;UserController&apos; final或使方法 &apos;selectList&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="45" column="25" severity="error" message="参数： map 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="46" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="49" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="56" column="24" severity="error" message="参数： id 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="60" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="67" column="21" severity="error" message="参数： user 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="68" column="9" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="73" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="80" column="21" severity="error" message="参数： user 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="84" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="84" column="5" severity="error" message="類 &apos;UserController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;delete&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;UserController&apos; final或使方法 &apos;delete&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="85" column="21" severity="error" message="参数： user 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="89" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="89" column="5" severity="error" message="類 &apos;UserController&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;login&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;UserController&apos; final或使方法 &apos;login&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="90" column="20" severity="error" message="参数： user 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="91" severity="error" message="本行字符数 85个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="91" column="19" severity="error" message="应避免在子表达式中赋值。" source="com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck"/>
+<error line="92" column="13" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="92" column="13" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="93" column="18" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="93" column="18" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="94" column="18" severity="error" message="&apos;if&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="94" column="18" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="94" column="43" severity="error" message="&apos;return&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="95" column="13" severity="error" message="&apos;else&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\AdministratorDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="7" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\CommodityDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="7" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\CommodityEvaluationDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="13" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="18" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="20" severity="error" message="本行字符数 94个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="20" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="24" severity="error" message="本行字符数 92个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="24" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="28" severity="error" message="本行字符数 121个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="28" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="29" severity="error" message="本行字符数 124个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\CommodityPhotoDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="7" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\KindDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="7" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\MiddleCountDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="7" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\OrderDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="13" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="19" severity="error" message="本行字符数 96个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="19" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="20" severity="error" message="本行字符数 84个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\RateDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="7" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\SellDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="7" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\ShopDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="7" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\ShopEvaluationDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\ShoppingCartDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="13" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="18" severity="error" message="本行字符数 114个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="18" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="19" severity="error" message="本行字符数 94个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\dao\UserDao.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="7" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\Administrator.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="13" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="18" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\Commodity.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="14" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="14" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="14" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="14" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="14" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="16" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="17" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="19" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="23" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="25" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="26" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="27" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="28" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="29" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="31" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="32" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="33" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="36" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="38" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="39" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="40" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="41" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="43" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="44" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="46" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="47" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="48" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="49" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\CommodityEvaluation.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="13" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="18" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="23" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\CommodityPhoto.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="13" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="18" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\Kind.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="13" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\MiddleCount.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="11" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="16" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="16" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="16" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="16" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="18" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="19" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="23" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="25" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="27" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="29" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\Orders.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="11" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="16" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="16" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="16" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="16" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="18" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="19" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="20" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="23" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="25" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="26" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="27" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="29" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="32" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="34" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="36" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="39" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="40" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\Rate.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="13" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="17" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="18" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\Sell.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="13" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="18" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="23" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="25" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="26" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="28" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="29" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="30" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="31" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="32" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="33" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="34" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="35" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="36" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="39" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="40" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\Shop.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="13" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="18" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="20" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\ShopEvaluation.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="13" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="18" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="21" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="22" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="23" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="24" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\ShoppingCart.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="13" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="18" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="20" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\User.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="19" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="13" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="13" column="29" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="17" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="18" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="19" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="20" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="21" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="22" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="23" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="25" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="26" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="27" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="28" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="29" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="30" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="32" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="33" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="34" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="35" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="36" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\vo\CommodityEvaluationInfo.java">
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="10" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\vo\OrdersInfo.java">
+<error line="10" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\entity\vo\ShoppingInfo.java">
+<error line="10" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="11" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="12" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="14" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="15" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\SecondStoreApplication.java">
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="6" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="9" column="1" severity="error" message="文件含有制表符 tab （这只是第一例）。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="9" column="9" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="9" column="33" severity="error" message="参数： args 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\AdministratorService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="12" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\CommodityEvaluationService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="10" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" severity="error" message="本行字符数 83个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="14" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="15" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="16" severity="error" message="本行字符数 116个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="16" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\CommodityPhotoService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="9" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\CommodityService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="9" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" severity="error" message="本行字符数 84个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="13" column="63" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="14" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\AdministratorServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="16" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="21" severity="error" message="本行字符数 124个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="22" column="5" severity="error" message="類 &apos;AdministratorServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;login&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;AdministratorServiceImpl&apos; final或使方法 &apos;login&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="23" column="32" severity="error" message="参数： name 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="23" column="51" severity="error" message="参数： password 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\CommodityEvaluationServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="14" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="19" severity="error" message="本行字符数 148个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="20" column="5" severity="error" message="類 &apos;CommodityEvaluationServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;calculateScore&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;CommodityEvaluationServiceImpl&apos; final或使方法 &apos;calculateScore&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="21" column="34" severity="error" message="参数： commodityId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="25" column="5" severity="error" message="類 &apos;CommodityEvaluationServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;evaluationCount&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;CommodityEvaluationServiceImpl&apos; final或使方法 &apos;evaluationCount&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="26" column="36" severity="error" message="参数： commodityId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="30" column="5" severity="error" message="類 &apos;CommodityEvaluationServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;getEvaluationById&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;CommodityEvaluationServiceImpl&apos; final或使方法 &apos;getEvaluationById&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="31" severity="error" message="本行字符数 124个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="31" column="61" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="31" column="98" severity="error" message="参数： commodityId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="32" severity="error" message="本行字符数 94个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\CommodityPhotoServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="14" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="19" severity="error" message="本行字符数 128个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="21" column="5" severity="error" message="類 &apos;CommodityPhotoServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;getPhotoByCommodityId&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;CommodityPhotoServiceImpl&apos; final或使方法 &apos;getPhotoByCommodityId&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="22" severity="error" message="本行字符数 81个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="22" column="55" severity="error" message="参数： commodityId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="23" severity="error" message="本行字符数 110个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\CommodityServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="17" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="22" severity="error" message="本行字符数 108个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="24" column="5" severity="error" message="類 &apos;CommodityServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;getCommoditiesByShopId&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;CommodityServiceImpl&apos; final或使方法 &apos;getCommoditiesByShopId&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="25" severity="error" message="本行字符数 93个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="25" column="51" severity="error" message="参数： shopId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="25" column="72" severity="error" message="参数： status 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="32" column="5" severity="error" message="類 &apos;CommodityServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;getCommoditiesByKindId&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;CommodityServiceImpl&apos; final或使方法 &apos;getCommoditiesByKindId&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="33" column="51" severity="error" message="参数： kindId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\KindServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="10" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="15" severity="error" message="本行字符数 88个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\MiddleCountServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="13" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="18" severity="error" message="本行字符数 116个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="20" column="5" severity="error" message="類 &apos;MiddleCountServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;getMiddleCountByOrderId&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;MiddleCountServiceImpl&apos; final或使方法 &apos;getMiddleCountByOrderId&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="21" column="48" severity="error" message="参数： orderId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="22" severity="error" message="本行字符数 98个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\OrderServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="14" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="19" severity="error" message="本行字符数 93个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="20" column="5" severity="error" message="類 &apos;OrderServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;pageByStatus&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;OrderServiceImpl&apos; final或使方法 &apos;pageByStatus&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="21" severity="error" message="本行字符数 88个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="21" column="43" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="21" column="67" severity="error" message="参数： status 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\RateServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="10" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="15" severity="error" message="本行字符数 88个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\SellServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="16" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="21" severity="error" message="本行字符数 88个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="23" column="5" severity="error" message="類 &apos;SellServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;register&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;SellServiceImpl&apos; final或使方法 &apos;register&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="24" column="26" severity="error" message="参数： name 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="5" severity="error" message="類 &apos;SellServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;login&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;SellServiceImpl&apos; final或使方法 &apos;login&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="29" column="23" severity="error" message="参数： name 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="42" severity="error" message="参数： password 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="30" column="27" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\ShopEvaluationServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="14" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="19" severity="error" message="本行字符数 128个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="21" column="5" severity="error" message="類 &apos;ShopEvaluationServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;getEvaluationsByShopId&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;ShopEvaluationServiceImpl&apos; final或使方法 &apos;getEvaluationsByShopId&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="22" column="56" severity="error" message="参数： shopId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="23" severity="error" message="本行字符数 100个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="26" column="5" severity="error" message="類 &apos;ShopEvaluationServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;calculateScore&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;ShopEvaluationServiceImpl&apos; final或使方法 &apos;calculateScore&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="27" column="34" severity="error" message="参数： shopId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\ShoppingCartServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="18" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="23" severity="error" message="本行字符数 120个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="24" column="5" severity="error" message="類 &apos;ShoppingCartServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;getShoppingCartByCommodityId&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;ShoppingCartServiceImpl&apos; final或使方法 &apos;getShoppingCartByCommodityId&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="25" column="54" severity="error" message="参数： shopCraft 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="32" column="5" severity="error" message="類 &apos;ShoppingCartServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;page&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;ShoppingCartServiceImpl&apos; final或使方法 &apos;page&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="33" severity="error" message="本行字符数 84个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="33" column="37" severity="error" message="参数： page 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="33" column="63" severity="error" message="参数： userId 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="34" severity="error" message="本行字符数 86个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\ShopServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="10" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="15" severity="error" message="本行字符数 88个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\impl\UserServiceImpl.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="16" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="21" severity="error" message="本行字符数 88个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="23" column="5" severity="error" message="類 &apos;UserServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;register&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;UserServiceImpl&apos; final或使方法 &apos;register&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="24" column="26" severity="error" message="参数： name 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="28" column="5" severity="error" message="類 &apos;UserServiceImpl&apos; 看起來像是為擴展設計的（可以是子類），但方法 &apos;login&apos; 沒有javadoc，解釋瞭如何安全地執行。如果類不是為擴展而設計的，請考慮創建類 &apos;UserServiceImpl&apos; final或使方法 &apos;login&apos; static/final/abstract/empty，或為方法添加允許的" source="com.puppycrawl.tools.checkstyle.checks.design.DesignForExtensionCheck"/>
+<error line="29" column="23" severity="error" message="参数： name 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="29" column="42" severity="error" message="参数： password 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\KindService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="6" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\MiddleCountService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="12" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\OrderService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="10" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="14" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\RateService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="6" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\SellService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="12" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="14" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\ShopEvaluationService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="9" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="13" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="14" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\ShoppingCartService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="10" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="15" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="17" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\ShopService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="6" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\service\UserService.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="8" severity="error" message="Javadoc 首句应以句号结尾。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="12" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="14" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\task\MiddleCountTask.java">
+<error line="1" severity="error" message="文件未以空行结尾。" source="com.puppycrawl.tools.checkstyle.checks.NewlineAtEndOfFileCheck"/>
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="4" column="35" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - com.example.SecondStore.dao.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="21" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="23" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="25" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="27" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="29" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="37" severity="error" message="本行字符数 84个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="39" column="38" severity="error" message="&apos;-20&apos; 是一个魔术数字（直接常数）。" source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="44" column="9" severity="error" message="&apos;if&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="46" severity="error" message="本行字符数 105个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="50" severity="error" message="本行字符数 102个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="53" severity="error" message="本行字符数 104个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="56" column="71" severity="error" message="&apos;*&apos; 应另起一行。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.OperatorWrapCheck"/>
+</file>
+<file name="D:\SecondStore\src\main\java\com\example\SecondStore\util\Util.java">
+<error line="1" severity="error" message="缺少 package-info.java 文件。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocPackageCheck"/>
+<error line="10" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+<error line="12" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocVariableCheck"/>
+<error line="12" column="18" severity="error" message="&apos;static&apos; 修饰符顺序违反 JLS 建议." source="com.puppycrawl.tools.checkstyle.checks.modifier.ModifierOrderCheck"/>
+<error line="15" column="5" severity="error" message="缺少 Javadoc 。" source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="15" column="26" severity="error" message="名称 &apos;SaveImage&apos; 必须匹配表达式： &apos;^[a-z][a-zA-Z0-9]*$&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.naming.MethodNameCheck"/>
+<error line="15" column="36" severity="error" message="参数： file 应定义为 final 的。" source="com.puppycrawl.tools.checkstyle.checks.FinalParametersCheck"/>
+<error line="20" severity="error" message="本行字符数 89个，最多：80个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+</checkstyle>
